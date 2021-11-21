@@ -92,8 +92,8 @@ const App = () => {
 
   return (
     <div>
-      <h2>Phonebook</h2>
       <Filter name={nameFilter} handle={handleSearchChange} />
+      <h2>Phonebook</h2>
       <PersonForm onSubmit={addName} namevalue={newName} nameonChange={handleNameChange} 
       telvalue={newTelephone} telonChange={handleTelephoneChange}/>
       <h2>Numbers</h2>
